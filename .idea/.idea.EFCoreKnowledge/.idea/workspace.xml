@@ -12,7 +12,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7348260-9938-4fe3-aabf-3352f6cd5935" name="Changes" comment="" />
+    <list default="true" id="f7348260-9938-4fe3-aabf-3352f6cd5935" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/EFCoreKnowledge.Repository/RepositoryContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EFCoreKnowledge.Repository/StudentConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EFCoreKnowledge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EFCoreKnowledge/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EFCoreKnowledge.sln" beforeDir="false" afterPath="$PROJECT_DIR$/EFCoreKnowledge.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EFCoreKnowledge.Api/EFCoreKnowledge.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/EFCoreKnowledge.Api/EFCoreKnowledge.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EFCoreKnowledge.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/EFCoreKnowledge.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EFCoreKnowledge.Api/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/EFCoreKnowledge.Api/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EFCoreKnowledge.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/EFCoreKnowledge.Api/appsettings.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,12 +31,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2l5DaIjV50Xao3QwNzVjPbMajXl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -151,7 +167,7 @@
       <option name="presentableId" value="Default" />
       <updated>1724461105877</updated>
       <workItem from="1724461109176" duration="318000" />
-      <workItem from="1724461439906" duration="347000" />
+      <workItem from="1724461439906" duration="4992000" />
     </task>
     <servers />
   </component>
