@@ -12,16 +12,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7348260-9938-4fe3-aabf-3352f6cd5935" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/EFCoreKnowledge.Repository/RepositoryContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EFCoreKnowledge.Repository/StudentConfiguration.cs" afterDir="false" />
+    <list default="true" id="f7348260-9938-4fe3-aabf-3352f6cd5935" name="Changes" comment="add migration">
+      <change afterPath="$PROJECT_DIR$/src/EFCoreKnowledge.Api/MigrationManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EFCoreKnowledge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EFCoreKnowledge/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCoreKnowledge.sln" beforeDir="false" afterPath="$PROJECT_DIR$/EFCoreKnowledge.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EFCoreKnowledge.Api/EFCoreKnowledge.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/EFCoreKnowledge.Api/EFCoreKnowledge.Api.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EFCoreKnowledge.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/EFCoreKnowledge.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EFCoreKnowledge.Api/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/EFCoreKnowledge.Api/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EFCoreKnowledge.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/EFCoreKnowledge.Api/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +25,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/code/EFCoreKnowledge/src/EFCoreKnowledge.Api/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
   <component name="KubernetesApiProvider"><![CDATA[{
   "isMigrated": true
 }]]></component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
@@ -49,6 +47,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Launch Settings Profile.EFCoreKnowledge.Api: http.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
@@ -66,7 +65,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.WebApplication1: IIS Express">
+  <component name="RunManager" selected=".NET Launch Settings Profile.EFCoreKnowledge.Api: http">
     <configuration name="EFCoreKnowledge.Api: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/EFCoreKnowledge.Api/EFCoreKnowledge.Api.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
@@ -167,15 +166,27 @@
       <option name="presentableId" value="Default" />
       <updated>1724461105877</updated>
       <workItem from="1724461109176" duration="318000" />
-      <workItem from="1724461439906" duration="4992000" />
+      <workItem from="1724461439906" duration="7421000" />
     </task>
+    <task id="LOCAL-00001" summary="add migration">
+      <option name="closed" value="true" />
+      <created>1724471857135</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724471857135</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="add migration" />
+    <option name="LAST_COMMIT_MESSAGE" value="add migration" />
   </component>
 </project>

@@ -1,3 +1,4 @@
+using EFCoreKnowledge.Api;
 using EFCoreKnowledge.Repository;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,6 +11,6 @@ builder.Services.AddDbContext<RepositoryContext>(opts =>
 var app = builder.Build();
 
 app.UseHttpsRedirection();
-app.MapControllers();
+app.MigrateDatabase();
 
 app.Run();
