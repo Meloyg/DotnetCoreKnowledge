@@ -13,14 +13,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7348260-9938-4fe3-aabf-3352f6cd5935" name="Changes" comment="add migration">
-      <change afterPath="$PROJECT_DIR$/src/EFCoreKnowledge.Api/MigrationManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EFCoreKnowledge.Api/Interceptors/ConnectionInterceptor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EFCoreKnowledge.Entities/Models/User.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EFCoreKnowledge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EFCoreKnowledge/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EFCoreKnowledge.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/EFCoreKnowledge.Api/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,10 +31,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://C:/code/EFCoreKnowledge/src/EFCoreKnowledge.Api/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -55,6 +58,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "IdeDotTraceSystemModulesPageId",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -167,6 +171,7 @@
       <updated>1724461105877</updated>
       <workItem from="1724461109176" duration="318000" />
       <workItem from="1724461439906" duration="7421000" />
+      <workItem from="1724669850304" duration="535000" />
     </task>
     <task id="LOCAL-00001" summary="add migration">
       <option name="closed" value="true" />
