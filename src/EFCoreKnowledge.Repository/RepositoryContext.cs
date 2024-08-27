@@ -12,4 +12,5 @@ public class RepositoryContext(DbContextOptions<RepositoryContext> options) : Db
     }
 
     public DbSet<Student> Students { get; set; }
+    public DbSet<User> Users { get; set; }
 }
