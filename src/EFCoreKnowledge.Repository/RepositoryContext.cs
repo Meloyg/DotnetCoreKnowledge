@@ -1,4 +1,5 @@
 using EFCoreKnowledge.Entities.Models;
+using EFCoreKnowledge.Repository.Configurations;
 using Microsoft.EntityFrameworkCore;
 
 namespace EFCoreKnowledge.Repository;
