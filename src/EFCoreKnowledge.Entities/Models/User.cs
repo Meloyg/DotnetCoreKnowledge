@@ -11,9 +11,11 @@ public class User : IAuditableEntity
     public long Id { get; protected set; }
     
     [Required]
+    [MaxLength(256)]
     public string Name { get; set; }
     
     [Required]
+    [ConcurrencyCheck] // Optimistic concurrency check
     public string Email { get; set; }
     public DateTime Created { get; private set; }
     public DateTime Modified { get; private set; }
