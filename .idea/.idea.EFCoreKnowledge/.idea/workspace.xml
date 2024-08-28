@@ -12,12 +12,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7348260-9938-4fe3-aabf-3352f6cd5935" name="Changes" comment="Interceptors">
-      <change afterPath="$PROJECT_DIR$/src/EFCoreKnowledge.Api/Requests/AddUserRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EFCoreKnowledge.Api/Services/EmailService.cs" afterDir="false" />
+    <list default="true" id="f7348260-9938-4fe3-aabf-3352f6cd5935" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EFCoreKnowledge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EFCoreKnowledge/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EFCoreKnowledge.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/EFCoreKnowledge.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EFCoreKnowledge.Repository/RepositoryContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/EFCoreKnowledge.Repository/RepositoryContext.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +183,7 @@
       <workItem from="1724461439906" duration="7421000" />
       <workItem from="1724669850304" duration="535000" />
       <workItem from="1724670467426" duration="5236000" />
-      <workItem from="1724745334557" duration="3064000" />
+      <workItem from="1724745334557" duration="4932000" />
     </task>
     <task id="LOCAL-00001" summary="add migration">
       <option name="closed" value="true" />
@@ -221,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724746327620</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1.0">
+      <option name="closed" value="true" />
+      <created>1724749435011</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724749435011</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +239,7 @@
     <MESSAGE value="update" />
     <MESSAGE value="Add IAuditableEntity" />
     <MESSAGE value="Interceptors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Interceptors" />
+    <MESSAGE value="1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0" />
   </component>
 </project>
