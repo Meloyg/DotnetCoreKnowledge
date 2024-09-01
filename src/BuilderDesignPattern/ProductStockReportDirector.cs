@@ -4,8 +4,9 @@ public class ProductStockReportDirector(IProductStockReportBuilder builder)
 {
     public void BuildStockReport()
     {
-        builder.BuildHeader();
-        builder.BuildBody();
-        builder.BuildFooter();
+        builder
+            .BuildHeader()
+            .BuildBody()
+            .BuildFooter();
     }
 }

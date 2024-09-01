@@ -3,22 +3,26 @@ namespace BuilderDesignPattern;
 public class ProductStockReportBuilder(IEnumerable<Product> products) : IProductStockReportBuilder
 {
     private ProductStockReport _productStockReport = new();
-    private readonly IEnumerable<Product> _products = products;
-
-    public void BuildHeader()
+    public IProductStockReportBuilder BuildHeader()
     {
         _productStockReport.HeaderPart = "<header>Product Stock Report</header>";
+
+        return this;
     }
 
-    public void BuildBody()
+    public IProductStockReportBuilder BuildBody()
     {
-        var productLines = _products.Select(p => $"Product: {p.MyProperty}, Price: {p.Price}");
+        var productLines = products.Select(p => $"Product: {p.MyProperty}, Price: {p.Price}");
         _productStockReport.BodyPart = string.Join(Environment.NewLine, productLines);
+
+        return this;
     }
 
-    public void BuildFooter()
+    public IProductStockReportBuilder BuildFooter()
     {
         _productStockReport.FooterPart = "<footer>Report created at " + DateTime.Now + "</footer>";
+
+        return this;
     }
 
     public ProductStockReport GetReport()
