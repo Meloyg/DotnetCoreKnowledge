@@ -1,15 +1,20 @@
-# Entity Framework Core Knowledge
+# Dotnet Core Knowledge
 
-## Description
+## Table of Contents
+- [Entity Framework Core](#entity-framework-core)
+
+## Entity Framework Core
+
+### Description
 
 This repository contains the EF core portion of the knowledge for dotnet development.
 
-## Pre-requisites
+### Pre-requisites
 
 - .NET Core SDK 8.0
 - Entity Framework Core
 
-## Topics
+### Topics
 
 ### Migraions
 
@@ -28,3 +33,14 @@ dotnet ef database update
 ### Entity Framework Core Interceptors
   - The interceptors are used to intercept the database operations like `SaveChanges`, `Query`, `ExecuteSqlCommand`, etc.
   - It helps to log the database operations, modify the database operations, etc.
+
+## Design Patterns
+
+### Description
+
+This repository contains the design patterns for dotnet development.
+
+### Builder Pattern
+
+- The builder pattern is used to create an object with multiple properties.
+- It is used to create an object with multiple properties.
