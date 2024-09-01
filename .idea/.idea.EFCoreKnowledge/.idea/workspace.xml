@@ -12,9 +12,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7348260-9938-4fe3-aabf-3352f6cd5935" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EFCoreKnowledge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EFCoreKnowledge/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f7348260-9938-4fe3-aabf-3352f6cd5935" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +37,8 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/code/EFCoreKnowledge/src/EFCoreKnowledge.Api/Interceptors/AuditableEntitiesInterceptor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/code/EFCoreKnowledge/src/EFCoreKnowledge.Entities/Models/User.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/code/EFCoreKnowledge/src/EFCoreKnowledge.Entities/Models/User.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -184,6 +183,7 @@
       <workItem from="1724669850304" duration="535000" />
       <workItem from="1724670467426" duration="5236000" />
       <workItem from="1724745334557" duration="4932000" />
+      <workItem from="1724845470206" duration="1019000" />
     </task>
     <task id="LOCAL-00001" summary="add migration">
       <option name="closed" value="true" />
@@ -225,7 +225,31 @@
       <option name="project" value="LOCAL" />
       <updated>1724749435011</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <option name="closed" value="true" />
+      <created>1724845514868</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724845514868</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update model">
+      <option name="closed" value="true" />
+      <created>1724845651508</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724845651508</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Optimize Performance, Streamline Queries, and Enhance Data Handling">
+      <option name="closed" value="true" />
+      <created>1724846172451</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724846172451</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,10 +260,12 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="add migration" />
-    <MESSAGE value="update" />
     <MESSAGE value="Add IAuditableEntity" />
     <MESSAGE value="Interceptors" />
     <MESSAGE value="1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.0" />
+    <MESSAGE value="update" />
+    <MESSAGE value="update model" />
+    <MESSAGE value="Optimize Performance, Streamline Queries, and Enhance Data Handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimize Performance, Streamline Queries, and Enhance Data Handling" />
   </component>
 </project>
