@@ -43,5 +43,6 @@ This repository contains the design patterns for dotnet development.
 
 ### Builder Pattern
 
+- The director class is used to create the object with the help of the builder class.
 - The builder pattern is used to create an object with multiple properties.
 - It is used to create an object with multiple properties.
