@@ -2,6 +2,7 @@
 
 ## Table of Contents
 - [Entity Framework Core](#entity-framework-core)
+- [Design Patterns](#design-patterns)
 
 ## Entity Framework Core
 
