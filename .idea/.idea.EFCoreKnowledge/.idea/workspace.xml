@@ -8,12 +8,21 @@
     <projectFile profileName="IIS Express">src/EFCoreKnowledge.Api/EFCoreKnowledge.Api.csproj</projectFile>
     <projectFile profileName="http">src/EFCoreKnowledge.Api/EFCoreKnowledge.Api.csproj</projectFile>
     <projectFile profileName="https">src/EFCoreKnowledge.Api/EFCoreKnowledge.Api.csproj</projectFile>
+    <projectFile>src/StrategyDesignPattern/StrategyDesignPattern.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7348260-9938-4fe3-aabf-3352f6cd5935" name="Changes" comment="" />
+    <list default="true" id="f7348260-9938-4fe3-aabf-3352f6cd5935" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/ISalaryCalculator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/JuniorDevSalaryCalculator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/Models/DeveloperLevel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/Models/DeveloperReport.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StrategyDesignPattern/SeniorDevSalaryCalculator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EFCoreKnowledge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EFCoreKnowledge/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EFCoreKnowledge.sln" beforeDir="false" afterPath="$PROJECT_DIR$/EFCoreKnowledge.sln" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,8 +47,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/code/EFCoreKnowledge/src/EFCoreKnowledge.Entities/Models/User.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/code/EFCoreKnowledge/src/EFCoreKnowledge.Entities/Models/User.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/code/EFCoreKnowledge/src/BuilderDesignPattern/IProductStockReportBuilder.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -90,6 +98,24 @@
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/src/BuilderDesignPattern/BuilderDesignPattern.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="StrategyDesignPattern" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/src/StrategyDesignPattern/StrategyDesignPattern.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -205,6 +231,7 @@
       <workItem from="1724745334557" duration="4932000" />
       <workItem from="1724845470206" duration="1019000" />
       <workItem from="1725185488847" duration="1809000" />
+      <workItem from="1725230587454" duration="8130000" />
     </task>
     <task id="LOCAL-00001" summary="add migration">
       <option name="closed" value="true" />
@@ -294,7 +321,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725186639717</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="refactor">
+      <option name="closed" value="true" />
+      <created>1725230766707</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1725230766707</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update README.md">
+      <option name="closed" value="true" />
+      <created>1725230883707</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1725230883707</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,6 +356,8 @@
     <MESSAGE value="Optimize Performance, Streamline Queries, and Enhance Data Handling" />
     <MESSAGE value="Builder and FluentBuilder Design Patterns in C#" />
     <MESSAGE value="GetReport" />
-    <option name="LAST_COMMIT_MESSAGE" value="GetReport" />
+    <MESSAGE value="refactor" />
+    <MESSAGE value="update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
   </component>
 </project>
