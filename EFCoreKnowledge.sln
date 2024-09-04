@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderDesignPattern", "src
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyDesignPattern", "src\StrategyDesignPattern\StrategyDesignPattern.csproj", "{81B1E89F-1753-4C63-BD2A-C8F41C9507FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryDesignPattern", "src\FactoryDesignPattern\FactoryDesignPattern.csproj", "{32AFB93C-8543-4AFB-8B5F-F05FCF67EFF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{81B1E89F-1753-4C63-BD2A-C8F41C9507FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81B1E89F-1753-4C63-BD2A-C8F41C9507FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81B1E89F-1753-4C63-BD2A-C8F41C9507FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32AFB93C-8543-4AFB-8B5F-F05FCF67EFF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32AFB93C-8543-4AFB-8B5F-F05FCF67EFF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32AFB93C-8543-4AFB-8B5F-F05FCF67EFF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32AFB93C-8543-4AFB-8B5F-F05FCF67EFF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
