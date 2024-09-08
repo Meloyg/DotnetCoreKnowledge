@@ -1,0 +1,6 @@
+@OcelotJWT_HostAddress = http://localhost:5295
+
+GET {{OcelotJWT_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
