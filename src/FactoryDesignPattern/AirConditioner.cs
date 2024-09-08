@@ -20,6 +20,8 @@ public class AirConditioner
             _factories.Add(action, factory);
         }
     }
+    
+    public static AirConditioner Initialize() => new();
 
     public IAirConditioner ExecuteCreation(Actions action, double temperature)
     {

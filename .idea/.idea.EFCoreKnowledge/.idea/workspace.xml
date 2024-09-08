@@ -15,17 +15,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7348260-9938-4fe3-aabf-3352f6cd5935" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/AirConditioner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/CoolingManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/Factory/AirConditionerFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/Factory/CoolingFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/Factory/WarmingFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/IAirConditioner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/Models/Actions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryDesignPattern/WarmingManager.cs" afterDir="false" />
+    <list default="true" id="f7348260-9938-4fe3-aabf-3352f6cd5935" name="Changes" comment="Factory Method">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EFCoreKnowledge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EFCoreKnowledge/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCoreKnowledge.sln" beforeDir="false" afterPath="$PROJECT_DIR$/EFCoreKnowledge.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +248,7 @@
       <workItem from="1725185488847" duration="1809000" />
       <workItem from="1725230587454" duration="8130000" />
       <workItem from="1725354845000" duration="1082000" />
-      <workItem from="1725417740443" duration="3152000" />
+      <workItem from="1725417740443" duration="4792000" />
     </task>
     <task id="LOCAL-00001" summary="add migration">
       <option name="closed" value="true" />
@@ -379,7 +370,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725355238755</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Factory Method">
+      <option name="closed" value="true" />
+      <created>1725421259892</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1725421259893</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,6 +401,7 @@
     <MESSAGE value="update README.md" />
     <MESSAGE value="Strategy Design Pattern" />
     <MESSAGE value="readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme" />
+    <MESSAGE value="Factory Method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Factory Method" />
   </component>
 </project>
