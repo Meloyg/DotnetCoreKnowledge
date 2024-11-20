@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryDesignPattern", "src
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotJWT", "src\OcelotJWT\OcelotJWT.csproj", "{D6FD59CA-7C78-447B-A5B6-BE3C93B189A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refit", "src\Refit\Refit.csproj", "{42B3D5EB-C054-4D7B-AD96-5EF48E7E11E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{D6FD59CA-7C78-447B-A5B6-BE3C93B189A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6FD59CA-7C78-447B-A5B6-BE3C93B189A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6FD59CA-7C78-447B-A5B6-BE3C93B189A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42B3D5EB-C054-4D7B-AD96-5EF48E7E11E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B3D5EB-C054-4D7B-AD96-5EF48E7E11E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B3D5EB-C054-4D7B-AD96-5EF48E7E11E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B3D5EB-C054-4D7B-AD96-5EF48E7E11E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
