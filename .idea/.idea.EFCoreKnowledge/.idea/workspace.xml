@@ -9,14 +9,28 @@
     <projectFile profileName="http">src/EFCoreKnowledge.Api/EFCoreKnowledge.Api.csproj</projectFile>
     <projectFile profileName="https">src/EFCoreKnowledge.Api/EFCoreKnowledge.Api.csproj</projectFile>
     <projectFile>src/FactoryDesignPattern/FactoryDesignPattern.csproj</projectFile>
+    <projectFile profileName="IIS Express">src/OcelotJWT/OcelotJWT.csproj</projectFile>
+    <projectFile profileName="http">src/OcelotJWT/OcelotJWT.csproj</projectFile>
+    <projectFile profileName="https">src/OcelotJWT/OcelotJWT.csproj</projectFile>
+    <projectFile profileName="IIS Express">src/Refit/Refit.csproj</projectFile>
+    <projectFile profileName="http">src/Refit/Refit.csproj</projectFile>
+    <projectFile profileName="https">src/Refit/Refit.csproj</projectFile>
     <projectFile>src/StrategyDesignPattern/StrategyDesignPattern.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7348260-9938-4fe3-aabf-3352f6cd5935" name="Changes" comment="Factory Method">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EFCoreKnowledge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EFCoreKnowledge/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f7348260-9938-4fe3-aabf-3352f6cd5935" name="Changes" comment="added refit project">
+      <change afterPath="$PROJECT_DIR$/src/Dotnet.Refit/Models/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dotnet.Refit/RefitClient/IUsersClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EFCoreKnowledge.sln" beforeDir="false" afterPath="$PROJECT_DIR$/EFCoreKnowledge.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Refit/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dotnet.Refit/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Refit/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dotnet.Refit/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Refit/Refit.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dotnet.Refit/Dotnet.Refit.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Refit/Refit.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dotnet.Refit/Refit.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Refit/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dotnet.Refit/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Refit/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dotnet.Refit/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,14 +49,14 @@
     &quot;assignee&quot;: &quot;Meloyg&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Meloyg/EFCoreKnowledge.git&quot;,
-    &quot;accountId&quot;: &quot;821cfcc7-63ba-4850-bbd4-c20c1bdfeb98&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Meloyg/DotnetCoreKnowledge.git",
+    "accountId": "e2939475-6746-4601-af4d-6eb2b1fd7802"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/code/EFCoreKnowledge/src/BuilderDesignPattern/IProductStockReportBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Dotnet.Refit/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -61,30 +75,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.EFCoreKnowledge.Api: http.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.BuilderDesignPattern.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.FactoryDesignPattern.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.StrategyDesignPattern.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;IdeDotTraceSystemModulesPageId&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\MeloGuan\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\MeloGuan\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\MeloGuan\\AppData\\Local\\Symbols\\src&quot;
-    ]
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.EFCoreKnowledge.Api: http.executor": "Run",
+    ".NET Project.BuilderDesignPattern.executor": "Run",
+    ".NET Project.FactoryDesignPattern.executor": "Run",
+    ".NET Project.StrategyDesignPattern.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "IdeDotTraceSystemModulesPageId",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Project.FactoryDesignPattern">
     <configuration name="BuilderDesignPattern" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -230,6 +237,51 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Refit: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/Dotnet.Refit/Dotnet.Refit.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Refit: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/Dotnet.Refit/Dotnet.Refit.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="http" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Refit: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/Dotnet.Refit/Dotnet.Refit.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="https" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="WebApplication1: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebApplication1/WebApplication1.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
@@ -294,6 +346,7 @@
       <workItem from="1725230587454" duration="8130000" />
       <workItem from="1725354845000" duration="1082000" />
       <workItem from="1725417740443" duration="4792000" />
+      <workItem from="1732096570094" duration="927000" />
     </task>
     <task id="LOCAL-00001" summary="add migration">
       <option name="closed" value="true" />
@@ -423,7 +476,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725421259893</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Update nuget">
+      <option name="closed" value="true" />
+      <created>1732096919284</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1732096919284</updated>
+    </task>
+    <task id="LOCAL-00018" summary="added refit project">
+      <option name="closed" value="true" />
+      <created>1732097123525</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1732097123525</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,6 +501,7 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="add migration" />
     <MESSAGE value="Add IAuditableEntity" />
@@ -447,6 +517,8 @@
     <MESSAGE value="Strategy Design Pattern" />
     <MESSAGE value="readme" />
     <MESSAGE value="Factory Method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Factory Method" />
+    <MESSAGE value="Update nuget" />
+    <MESSAGE value="added refit project" />
+    <option name="LAST_COMMIT_MESSAGE" value="added refit project" />
   </component>
 </project>
